@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    /* height: auto; */
+    /* overflow: hidden; */
+    width: 100%;
+    background-color: rgba(162, 129, 129, 0.649);
+    /* background-image: url("cool-blur-abstract-4k-nd.jpg"); */
+}
+
+
+.header {
+    z-index: 1;
+    position: fixed;
+    text-align: center;
+    font-size: small;
+    background-color: rgba(255, 255, 255, 0.382);
+    width: 100%;
+    padding: 5px;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.topimg {
+    border: 2px solid black;
+    height: 300px;
+    position: relative;
+    width: 100%;
+    /* position: absolute; */
+    background-image: url("brady-frieden-AupdmQ4w_M4-unsplash.jpg");
+    background-size: 100%;
+}
+
+.dp {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid grey;
+    box-shadow: 15px 5px 50px;
+    float: left;
+    position: absolute;
+    top: 190px;
+    right: 10%;
+    background-image: url("Snapchat-1713315142.jpg");
+    background-size: cover;
+}
+
+.description {
+    height: 200px;
+    width: 100%;
+    /* border: 6px solid black; */
+    position: relative;
+    top: 150px;
+}
+
+.paragraph {
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    font-size: larger;
+    font-family: system-ui;
+    font-weight: bolder;
+    color: white;
+}
+
+.skills {
+    position: relative;
+    top: 150px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.429);
+    margin: 50px;
+    overflow: hidden;
+
+}
+
+.skills h1 {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+
+.d1 {
+    height: 62px;
+    width: 250px;
+    background-color: white;
+    border-radius: 30px 30px;
+    z-index: 100;
+    border: 2px solid black;
+    margin-top: 50px;
+
+}
+
+.d2 {
+    height: 59px;
+    width: 70%;
+    background-color: gray;
+    border-radius: 30px 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 19px;
+}
+
+
+.tab {
+    position: relative;
+    top: 150px;
+    margin-left: 35%;
+    color: black;
+    font-size: 25px;
+
+
+}
+
+tr td {
+    padding: 40px;
+}
+
+.form-div {
+    position: relative;
+    top: 150px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.429);
+    margin: 50px;
+    text-align: center;
+}
+
+/* .form
+{
+} */
+.form-div h1 {
+    padding-top: 15px;
+    color: black;
+}
+
+.inp1 input {
+    height: 50px;
+    width: 330px;
+    border: .5px solid black;
+    border-radius: 50px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.552);
+
+}
+
+input {
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: large;
+}
+
+:-moz-placeholder {
+    text-align: center;
+}
+
+textarea {
+    width: 650px;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.button {
+    height: 25px;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid orangered;
+    margin: 7px;
+}
